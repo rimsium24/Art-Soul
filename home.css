@@ -1,0 +1,961 @@
+/* Hamburger */
+
+
+body {
+				width: 100%;
+				margin: 0;
+				padding: 0;
+			}
+*/
+
+			.mainNav {
+			  overflow: ;
+			  background-color: 
+			  width: 100%; 
+			  z-index: 100;
+			  transition: top 3s;
+			  list-style: none;
+			  text-align: center;
+            
+			}
+
+			.mainNav a {
+
+			  color: #ffffff;
+			  padding: 18px 20px;
+			  text-decoration: none;
+			  font-size: 20px;
+			  display: inline-block;
+
+			}
+
+
+			.mainNav a:hover {
+			  background-color: tomato;*/
+			}
+
+
+			.mainNav .icon {
+			  display: none;
+			} 
+
+
+			
+
+			
+
+
+/*---General---*/
+body {
+    margin: 0px;
+    position: absolute;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin: 0 0 0 0;
+    font-family: 'Boogaloo', cursive;
+}
+
+h2 {
+    font-size: 15px;
+    font-family: 'Assistant', sans-serif;
+    margin: 0;
+    font-weight: 900;
+}
+
+.COA {
+    background-color: #4DA1A9;
+    color: #D7E8BA;
+    font-family: 'Boogaloo', cursive;
+    z-index: 10;
+    font-size: 35px;
+    position: absolute;
+    padding: 3%;
+    width: 20%;
+    text-align: center;
+    transform: translate(60%, 15%) rotate(-35deg);
+    border-radius: 100px;
+}
+
+.COA:hover {
+    background-color: #D7E8BA;
+    color: #4DA1A9;
+    font-family: 'Boogaloo', cursive;
+    z-index: 10;
+    font-size: 35px;
+    position: absolute;
+    padding: 3%;
+    width: 20%;
+    text-align: center;
+    transform: translate(60%, 15%) rotate(-35deg);
+    border-radius: 100px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Assistant', sans-serif;
+    margin-bottom: 2%;
+    margin-top: 0;
+}
+
+time {
+    font-family: 'Boogaloo', cursive;
+    margin: 0;
+    font-size: 22px;
+}
+
+#info {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 2% 3% 0% 1%;
+    background-color: #ffffff;
+
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+.captions {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: space-between;
+    font-size: 50px;
+}
+
+li {
+    list-style: circle;
+    margin-bottom: 1%
+}
+
+
+#information {
+    font-size: 15px;
+    font-family: 'Assistant', sans-serif;
+    width: 100%;
+    color: #454545;
+
+}
+
+figcaption {
+    width: 90%
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.staff {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.staffimages {
+    width: 90%;
+    padding: 0;
+    margin: 0;
+}
+
+/*---Header---*/
+header {
+    font-size: 10vw;
+    font-family: 'Boogaloo', cursive;
+    text-align: center;
+    line-height: 9vw;
+    z-index: 2;
+    color: #FF6B1A;
+    padding: 2px 0;
+    margin-left: 5%;
+}
+
+#banner {
+    background-image: url(Media/Photos/Fall_banner_2-01.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    position: relative;
+    display: flex;
+    flex-flow: row;
+}
+
+#banner2 {
+    background-image: url(Media/Photos/Fall_banner-01-01.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    position: relative;
+    display: flex;
+    flex-flow: row;
+}
+
+#banner,
+#background {
+    width: 100vw;
+    position: relative;
+    margin: 0;
+}
+
+#logo {
+    background-image: url(Media/Photos/Fall_banner-01-02.png);
+    background-size: cover;
+    margin: 0px 40px;
+    position: static;
+    width: 15%;
+}
+
+
+/*---Nav & Dropdowns---*/
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #C34716;
+    align-items: center;
+    padding-right: 1.5%;
+
+}
+
+.menu {
+    font-family: 'Boogaloo', cursive;
+    padding: 5px;
+    background-color: #C34716;
+    width: 25%;
+    text-align: center;
+
+
+
+}
+
+
+
+.dropdown {
+
+    position: relative;
+    color: white;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.dropdown a {
+    color: white;
+    font-size: 100%;
+    font-family: 'Boogaloo', cursive;
+    text-align: center;
+    line-height: 25px;
+    background-color: transparent;
+
+}
+
+.menu:hover {
+    background-color: #f58450;
+}
+
+.dropdown a:hover {
+    color: white;
+    font-size: 100%;
+    font-family: 'Boogaloo', cursive;
+    text-align: center;
+    background-color: #;
+}
+
+/*---Dropdown CSS from w3schools---*/
+
+.menu .icon {
+    display: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f26524;
+    line-height: 45px;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 99;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 65px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    line-height: 35px;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #f58450
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+    color: #f26524;
+}
+
+
+/*---Carousel---*/
+
+
+#background {
+    margin-top: 2%;
+    z-index: 0;
+    height: 45vw;
+    margin-bottom: 2%;
+}
+
+#background2 {
+    z-index: 0;
+    margin-left: 4%;
+    margin-bottom: 2%;
+}
+
+.mobileLeaf {
+    display: none;
+}
+
+#SlideShow {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    margin-bottom: 2%
+}
+
+#SlideShow2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#Carousel,
+#CarouselImage {
+    position: relative;
+}
+
+.CarouselImage {
+    height: 45vw;
+    border-width: thick;
+    border-color: #FF6B1A;
+    margin-bottom: 2%;
+    border-style: solid;
+}
+
+.CarouselImage2 {
+    height: 33vw;
+    border-width: thick;
+    border-color: #FF6B1A;
+    margin-bottom: 2%;
+    border-style: solid;
+
+}
+
+#Carousel {
+    width: 5%;
+    z-index: 3;
+    cursor: pointer;
+}
+
+#testimony {
+    font-size: 25px;
+    background-color: #C34716;
+    z-index: 5;
+    text-align: center;
+    color: white;
+    padding: 25px 57px 25px 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#button {
+    background-color: #FF6B1A;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 40px;
+    font-family: 'Boogaloo', cursive;
+    margin: 20px 0 0 0;
+}
+
+#button:hover {
+    background-color: #ffffff;
+    color: #FF6B1A;
+}
+
+/* SIDEBAR*/
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Assistant', sans-serif;
+    background-color: #D7E8BA;
+    color: #C34716;
+    padding: 2% 2%;
+    width: 100%;
+    float: left;
+    height: auto;
+    margin-right: 2%;
+}
+
+#sidebarSpecial {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Assistant', sans-serif;
+    background-color: #D7E8BA;
+    color: #C34716;
+    padding: 2% 2%;
+    width: 45%;
+    float: left;
+    height: auto;
+    margin-right: 2%;
+}
+
+
+#sidebarTestimony {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15%;
+    background-color: #ffffff;
+    padding: 4%;
+    color: #C34716;
+
+}
+
+#dropquote {
+    float: left;
+    width: 15%;
+    margin: 0 5%;
+}
+
+#sidebarbutton {
+    background-color: #C34716;
+    font-size: 35px;
+    color: white;
+    border-radius: 40px;
+    font-family: 'Boogaloo', cursive;
+    padding: 5%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+#sidebarbutton:hover {
+    background-color: white;
+    font-size: 35px;
+    color: #C34716;
+    border-radius: 40px;
+    font-family: 'Boogaloo', cursive;
+    padding: 5%;
+}
+
+#sidebarh1 {
+    margin-top: 10%;
+    font-family: 'Boogaloo', cursive;
+    font-size: 35px;
+}
+
+#sidebarMobile {
+    display: none;
+}
+
+
+.contactinformation {
+    background-color: #FF6B1A;
+    z-index: 10;
+    color: white;
+    font-size: 10pt;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+    text-align: center;
+}
+
+.contactinfo2 {
+    margin-top: 0.625rem;
+}
+
+.contactinformation,
+.contactinfo2 {
+    font-family: 'Assistant', sans-serif;
+    padding-right: 17px;
+}
+
+ .topnav {
+        display: none;
+    }
+
+@media screen and (max-width: 1040px) {
+    .COA {
+        background-color: #4DA1A9;
+        color: #D7E8BA;
+        font-family: 'Boogaloo', cursive;
+        z-index: 10;
+        font-size: 25px;
+        position: absolute;
+        padding: 3%;
+        width: 30%;
+        text-align: center;
+        transform: translate(30%, 15%) rotate(-35deg);
+        border-radius: 100px;
+    }
+
+    .COA:hover {
+        background-color: #D7E8BA;
+        color: #4DA1A9;
+        font-family: 'Boogaloo', cursive;
+        z-index: 10;
+        font-size: 25px;
+        position: absolute;
+            padding: 3%;
+        width: 30%;
+        text-align: center;
+        transform: translate(30%, 15%) rotate(-35deg);
+        border-radius: 100px;
+    }
+
+    .menu {
+        height: 100px;
+        padding: auto;
+    }
+
+    .dropdown-content {
+        top: 100px;
+    }
+
+    #logo {
+        background-image: url(Media/Photos/ArtSoul_Logo_single-01.png);
+        width: 17%;
+        margin: 1% 5%;
+    }
+    
+    .topnav {
+        display: none;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width: 791px) {
+    .menu {
+        display: none;
+    }
+    
+    .topnav {
+        display: none;
+    }
+    
+    .topnav {
+        overflow: hidden;
+        background-color: none;
+        position: relative;
+        display: block;
+    }
+
+    .topnav #myLinks {
+        display: none;
+    }
+
+    .topnav a {
+        float: left;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        font-family: 'Boogaloo', cursive;
+    }
+
+    .topnav a.icon {
+        float: right;
+    }
+
+    .topnav a:hover {
+        background-color: #C34716;
+        color: white;
+    }
+
+    .active {
+        background-color: none;
+        color: white;
+    }
+
+    #background {
+        z-index: 0;
+        height: 45vw;
+        margin-bottom: 0;
+        margin-top: 20%;
+    }
+
+    /*    .menu a.icon {
+        float: right;
+        display: block;
+    }
+
+    .menu.responsive {
+        position: relative;
+    }
+
+.menu.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }*/
+
+    .dropdown-content {
+        top: 100px;
+    }
+
+    p {
+        font-family: 'Assistant', sans-serif;
+        margin-bottom: 3%;
+        margin-top: 0;
+    }
+
+    #information {
+        width: 94%;
+        margin-left: 2%;
+        margin-bottom: 2%;
+    }
+
+    #dropquote {
+        width: 10%;
+        padding: 0 1%;
+    }
+
+    #sidebarbutton {
+        display: none;
+    }
+
+    .CarouselImage {
+        width: 99vw;
+        height: auto;
+        order: -1;
+        margin-bottom: 0;
+        transform: translateX(-1vw);
+    }
+
+    .CarouselImage2 {
+        width: 99vw;
+        height: auto;
+        order: -1;
+        margin-bottom: 0;
+        transform: translateX(-1vw);
+    }
+
+    #SlideShow2 {
+        width: 100%;
+    }
+
+    #content {
+        order: -1;
+    }
+
+    #sidebarTestimony {
+        width: 97.5%
+    }
+
+    #background2 {
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    #info {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+
+    }
+
+    #sidebarSpecial {
+        width: 100%;
+    }
+
+    #Carousel {
+        display: none;
+    }
+
+    #sidebar {
+        margin: 0;
+    }
+
+    #content {
+        padding: 0;
+        width: 100%;
+    }
+
+    .mobileLeaf {
+        display: flex;
+        justify-content: space-around;
+        padding-right: 17px;
+        padding: 5% 0;
+        cursor: pointer;
+    }
+
+    .CarouselMobile {
+        width: 15vw;
+    }
+
+    #SlideShow {
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+        margin-left: 0;
+
+    }
+
+    #testimony {
+        margin-top: 40vw;
+        position: relative;
+        font-size: 20px;
+
+    }
+
+    p {
+        width: 100%;
+    }
+
+    
+    .mainNav a.icon {
+        float: right;
+        display: block;
+        background-color: ;
+        font-size: 7.5vw;
+    }
+
+    .logo {
+        float: left;
+    }
+
+    #sidebar {
+        width: 100%;
+    }
+
+    #sidebarMobile {
+        display: block;
+        background-color: #C34716;
+        font-size: 35px;
+        color: white;
+        border-radius: 40px;
+        font-family: 'Boogaloo', cursive;
+        padding: 5%;
+        margin: auto;
+        width: 95%;
+        text-align: center;
+        margin-bottom: 3%;
+        order: -2;
+        margin-top: 3%;
+    }
+
+    .staff {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .staffimages {
+        width: 100%;
+        padding: 0;
+        margin-top: 10%;
+    }
+
+    .COA {
+        background-color: #4DA1A9;
+        color: #D7E8BA;
+        font-family: 'Boogaloo', cursive;
+        z-index: 10;
+        font-size: 35px;
+        position: absolute;
+        padding: 3%;
+        width: 95%;
+        text-align: center;
+        transform: translate(1%, -125%) rotate(0deg);
+        border-radius: 100px;
+        margin: auto;
+    }
+    
+   
+    
+    
+}
+
+/*Hamburger Media Queries*/
+
+@media screen and (max-width: 791px) {
+    .mainNav {
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    
+              .mainNav a {display: block;}
+			  .mainNav a.icon {
+			    float: right;
+			    display: block;
+			  }
+			  .logo {
+			  	float: left;
+			  }
+     #logo {
+        background-image: url(Media/Photos/ArtSoul_Logo_single-01.png);
+        width: 17%;
+        margin: 1% 5%;
+    }
+      
+      
+
+			}
+
+
+            /*Applies when hamburger tapped--*/
+			@media screen and (max-width: 791px) {
+			  .mainNav.responsive {position: relative;}
+			  .mainNav.responsive .icon {
+			    position: absolute;
+			    right: 0;
+			    top: 0; 
+			  }
+			  .mainNav.responsive a {
+			    float: none;
+			    display: block;
+			    text-align: center;
+			  }
+
+			  .mainNav.responsive .logo {
+			  	float: none;
+			  }
+                
+                .header.responsive_header {
+                    display:flex;
+                    flex-direction: column;
+                }
+			}
+
+
+/*html{
+	font-family: VERDANA;
+	font-size: 1vw;
+	background-color: #151515;
+}
+
+body{
+	margin: 0px;
+}
+a {
+	text-decoration: none;
+}
+
+.book{
+	background: #f16624;
+	height: 3.75rem;
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	width: 100%;
+}
+.boxed{
+	background: white;
+}
+							
+.book-button{
+	display: flex;
+	margin-top: .937rem;
+	content: center;
+	color: white;
+	font-size: 2rem;
+	padding-top: 2%;
+
+}
+
+
+.box {
+  width: 33.3333333%;
+
+}
+
+.box-logo{
+	align-content: center;
+	margin-left: 1;
+	padding-top: 5.5rem;
+	padding-bottom: 1.5rem;
+
+}
+
+.menu{
+	background:#f16624;
+	height: 3.125rem;
+	display: flex;
+	justify-content: center;
+}
+
+.menu-button{
+	color:white;
+	padding: 5rem;
+	font-size: .875rem;
+}
+
+
+.illustration{
+	width: 100%;
+}
+
+.homeillustration{
+	align-content: center;
+	width: 100%;
+    background-color: aliceblue;
+}
+
+.homephotos1 {
+	width: 33.33333333%;
+	margin-bottom: -4px;
+}
+
+.home-photos{
+	width: 100%;
+	display: inline-flex; 
+	align-items: center;
+}
+.contactinformation{
+color: #707070;
+font-size: 10pt;
+margin-top: 3.125rem;
+margin-bottom: 3.125rem;
+text-align: center;
+}
+.contactinfo2{
+margin-top: 0.625rem;
+}
+*/
